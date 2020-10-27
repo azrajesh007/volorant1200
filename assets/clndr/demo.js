@@ -15,7 +15,7 @@ $(document).ready( function() {
     var eventArray = [
         {
             title: 'Multi-Day Event',
-            endDate: thisMonth + '-27',
+            endDate: thisMonth + '-29',
             startDate: thisMonth + '-24'
         }
     ];
