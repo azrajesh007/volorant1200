@@ -1520,3 +1520,47 @@ height: 80%;
         float: right;
     }
 }
+
+.modal-header button {
+    border: none;
+    outline: none;
+    background: #161a26;
+    opacity: 1;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 0 !important;
+    justify-content: center;
+    margin: 0 0 0 auto!important;
+    float: right;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.modal-header button:hover, .modal-header button:focus {
+    border: none;
+    outline: none;
+}
+
+.modal-body p {
+    margin: 1em;
+}
+
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+
+.popup-reg-btn a{
+    background: #161a26;
+    margin-top: 0;
+}
+
+.close:focus, .close:hover {
+    opacity: 1;
+    color: #ffffff;
+}

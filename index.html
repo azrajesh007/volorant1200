@@ -55,14 +55,10 @@
                     <h1>BATTLE FOR RADIANITE AND PRIZES WORTH $300 USD</h1>
                     <p>We are Valorant, We are fighters! Take part in one of India's first VALORANT tournaments on the Mumbai server and win prizes worth $300. Set ablaze the battleground which awaits your glory. Do you have what it takes?
                         <br>
-                        There's only slots for the first 128 teams. So Hurry, Register NOW!</p>
+                        There's only slots for the first 64 teams. So Hurry, Register NOW!</p>
                 </div>
             </div>
-            <div class="row">
-            	<div class="col d-flex justify-content-center">
-            		<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=iES8F9_UUE-vrT7t2HMcpnDoPEfY_MtLg6SFCJymdrZUNEtaR0ZPMEw5VkZOM0ZIUzUyQjJPUFNZSC4u" target="blank" class="register-btn">Register Now</a>
-            	</div>
-            </div>
+            
         </div>
     </section>
     <!-- format -->
@@ -75,7 +71,7 @@
                 <li>
                     <div class="img-handler-top">
                         <b>Online Qualifiers</b>
-                        <p>128 teams</p>
+                        <p>64 teams</p>
                         <p>Single Elimination </p>
                         <p>BO1</p>
                     </div>
@@ -219,6 +215,23 @@
         </div>
         </footer>
         </div>
+        <div id="myModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+              <div class="modal-body">
+                <p>
+                    Registrations are now closed.
+                </p>
+                <!--  -->
+              </div>
+            </div>
+
+          </div>
+        </div>
     </section>
     </div>
     <!-- Optional JavaScript -->
@@ -231,15 +244,9 @@
     <script src="assets/clndr/clndr.js"></script>
     <script src="assets/clndr/demo.js"></script>
     <script type="text/javascript">
-    $(function() {
-        // $(window).on('scroll', function () {
-        //     if ( $(window).scrollTop() > 10 ) {
-        //         $('.navbar').addClass('active');
-        //     } else {
-        //         $('.navbar').removeClass('active');
-        //     }
-        // });
-    });
+    $(document).ready(function(){
+         $('#myModal').modal('show');
+    })
     </script>
 </body>
 
